@@ -1,6 +1,6 @@
 services:
   # A Docker web service
-  - type: web
+  - type: pserv
     name: alist
     env: docker
     repo: https://github.com/cddc22/mtproto-heroku.git # optional
